@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+import "./App.css";
+import EventBinding from "./components/EventBinding";
+
 function App() {
-  return (
-    <div className="App">
-      <StatefulGreetingWithPrevState greeting="I'm a stateful class component!" name="Andrew" />
-    </div>
-  );
+  return <div className="App">
+      <EventBinding />
+  </div>;
 }
 
 export default App;

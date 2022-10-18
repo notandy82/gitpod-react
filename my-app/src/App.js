@@ -1,8 +1,10 @@
 import "./App.css";
-import SearchBar from "./components/SearchBar";
+
+import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
+
 function App() {
   return <div className="App">
-      <SearchBar />
+      <UseEffectCounterContainer />
   </div>;
 }
 

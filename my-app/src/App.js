@@ -1,10 +1,10 @@
 import "./App.css";
+import HTTPHooks from "./components/HTTPHooks";
 
-import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 
 function App() {
   return <div className="App">
-      <UseEffectCounterContainer />
+      <HTTPHooks />
   </div>;
 }
 
